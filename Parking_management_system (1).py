@@ -5,7 +5,7 @@ from datetime import date
 
 global conn,cursor
 conn = mysql.connector.connect(
-    host='localhost', database=' parking_system', user='root', password='Us7003513122')
+    host='localhost', database=' parking_system', user='root', password='YOURPASSWORD')
 cursor = conn.cursor()
 
 
